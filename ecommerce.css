@@ -1,0 +1,654 @@
+.topnav{
+    background-color: rgba(216, 214, 214, 0.4);
+    padding: 12px 0px;
+}
+
+.icons{
+    font-size: 20px;
+   margin-top: 5px;
+}
+
+.icons a{
+    border-radius: 50%;
+    /* background-color: black; */
+    color: black;
+    padding: 5px;
+ }
+ .icons a:hover{
+    color: orangered;
+ }
+
+ .callicon{
+    color: orangered;
+    margin-right: 10px;
+    font-size: 19px;
+ }
+
+
+/* ***************************** top nav completed ********* */
+
+.sell{
+    position: relative;   
+}
+.branddot  {
+    position: absolute;
+    bottom:-10px;
+    right:-20px;
+    font-size: 17px;
+    color:orangered;
+}
+
+.nav-link:hover{
+ color: orangered !important;
+} 
+
+
+/* ******************************** Nav bar completed ********** */
+
+.homebg{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)) ,url(Images/homepic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 120px;
+}
+.shop{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.homebtn{
+    display: flex;
+    position: relative;
+
+}
+
+.btnh button{
+ font-size: 15px;
+ padding: 15px 40px;
+ color: white;
+ font-weight: bolder;
+ background-color: transparent;
+ border: 1px solid white;
+ margin-right: 7px;
+ margin-top: 30px;
+}
+.btnh2 button{
+    font-size: 15px;
+    padding: 15px 40px;
+    color:black;
+    font-weight: bolder;
+    background-color:white;
+    border: 1px solid white;
+    margin-right: 7px;
+    margin-top: 30px;
+   }
+.btnh button:hover{
+    background-color: white;
+    color: black;
+}
+.btnh2 button:hover{
+    background-color: transparent;
+    color: white;
+}
+
+
+/* ***************************** home page completed******************* */
+
+.productheading{
+    letter-spacing: 2.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    color: rgb(138, 136, 136,0.6);
+    font-size: 12px;
+}
+.productpg{
+    margin-top: 7%;
+}
+.producttitle{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+.productpara{
+    color: gray;
+    margin-bottom: 20%;
+}
+
+/* ********************************Images **************************** */
+
+.htitle:hover{
+    color: orangered !important;
+}
+.rate{
+    color: rgb(121, 120, 120);
+}
+.heart{
+    color:rgb(224, 223, 223);
+}
+.heartstatic{
+    color: rgba(237, 6, 6) ;
+}
+
+.heart:hover{
+    color: rgba(237, 6, 6);
+    transition: 0.5s all ease;
+}
+
+.cart{
+    color: white;
+    background-color: black;
+    border:2px solid black;
+    padding: 5px 19px;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+.cart:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s all ease;
+}
+
+.view{
+    /* margin-left: 10px; */
+    color: black;
+    background-color:white;
+    border:2px solid black;
+    padding: 5px 19px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.view:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s all ease;
+}
+
+
+/* **************** Products completed ***************************** */
+
+/* Form  */
+
+.notebg{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)) ,url(Images/homepic.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-attachment: fixed;
+    margin: 10% 0px 0px  0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notify h2{
+   font-size: 35px;
+   font-weight:200;
+}
+.notify input{
+    padding: 7px 30% 7px 10px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.notify button{
+    /* padding: 10x 14px 10px 0px; */
+    border: 2px solid white;
+    color: white;
+    padding: 7px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px !important;
+}
+.notify button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* ***************************** form completed ************** */
+
+
+.productpgcolor{
+    background-color: rgb(236, 234, 234,0.5);
+    padding: 10% 0px 7% 0px;
+}
+
+.productparacol{
+    color: gray;
+    padding-bottom: 10%;
+}
+
+/* about product 1 */
+
+.productbg{
+    position: relative;
+}
+.back{
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    font-size:150px;
+    color:  rgba(161, 161, 161, 0.2);
+    font-family:serif;
+    font-weight: bolder;
+}
+
+.back2{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        font-size:150px;
+        color:  rgba(161, 161, 161, 0.2);
+        font-family:serif;
+        font-weight: bolder;
+}
+
+.aboutp{
+    color: gray;
+    width: 100%;
+    
+}
+.space{
+    padding-left: 70px !important;
+    position: relative;
+}
+
+.strike{
+    color: rgb(192, 191, 191);
+}
+.price{
+    color: rgb(88, 86, 86);
+    margin-left: 10px;
+}
+.space2{
+    padding-right: 70px !important;
+    position: relative;
+}
+.more{
+    margin-left: 60px;
+    padding: 10px 20px;
+}
+
+
+/* ************************* completed*************** */
+
+
+/* position trust */
+
+.trust{
+    position: relative;
+}
+
+
+
+.merchant{
+    background-color: green;
+    border-radius: 2px;
+    width: 50%;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -14px;
+    right: -5px;
+}
+
+/* ************************ */
+
+/* Team members */
+
+.teamimages{
+    width: 270px;
+    height: 350px;
+    border-radius: 7px;
+}
+
+.teamname{
+    color: rgb(113, 111, 111);
+    font-size: 20px;
+    padding: 15px 0px 0px 0px;
+}
+.teamrole{
+    color: lightgrey;
+    font-size: 15px;
+}
+.teampara{
+    color: rgb(125, 122, 122);
+    font-size: small;
+    text-align: center;
+    width:80%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+
+/* ********* team members completed ************** */
+
+.special{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(Images/homepic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    margin-top: 50px;
+}
+.specialpara{
+    width: 50%;
+    margin: auto;
+}
+
+.countdown{
+    background-color: white;
+    color: aqua;
+    padding: 20px 0px;
+    font-size: 40px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+    margin: 50px 50px 50px 50px;
+}
+.countdownmain{
+    margin-left: 50px !important;
+}
+
+.label{
+    display: block;
+    color: gray;
+    font-size: 18px;
+}
+.shopnow{
+    background-color: transparent;
+    padding: 10px 50px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.shopnow:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s all ease;
+}
+
+/* **** countdown completed ** */
+
+/* offers */
+
+.offers{
+    padding: 30px 0px 90px 0px;
+}
+
+.offersubtitle{
+    color: rgb(180, 177, 177);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.offertitle{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* col and flex  */
+
+
+.offericon{
+    color: orangered;
+}
+
+.offerheading{
+    color: rgb(136, 134, 134);
+    font-weight: 450;
+    font-size: 25px;
+}
+
+.offerpara{
+    color: rgb(155, 153, 153);
+}
+.offerlink{
+    color: orangered;
+    text-decoration: none;
+}
+
+/* ********** offer completed *********** */
+
+
+.testpic{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin: 60px 0px 20px 0px;
+}
+
+/* **************** completed ************* */
+
+
+/* Blogs */
+.blogname{
+    font-weight: 400;
+    font-size: 20px;
+}
+.dot{
+    color: rgba(152, 151, 151,0.5);
+}
+.datename{
+    color: rgb(201, 199, 199);
+    font-size: 16px;
+}
+
+.news{
+    color: orangered;
+}
+
+
+/* ********* Blog completed ********** */
+
+.contact{
+    padding: 80px 0px;
+}
+.form{
+    width: 90%;
+    margin: auto !important;
+
+}
+
+/* ********* contact completed ******** */
+
+/* footer  */
+
+.footer{
+    padding: 60px 0px;
+    margin-top: 50px;
+}
+.footera{
+    color: rgba(140, 138, 138,0.7);
+}
+.footera:hover{
+    color: black;
+    transition: 0.4s all ease;
+}
+
+.shoes{
+    font-weight: normal;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.copyrights{
+    color: rgb(195, 192, 192);
+}
+.copyrights:hover{
+    color:gray;
+    transition: 0.3s all ease;
+}
+.follow{
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+.followa:hover{
+    color: black !important;
+    transition: 0.3s all ease;
+}
+
+/* ******************* footer completed ****************** */
+
+
+
+
+
+/* mobile  */
+
+@media only screen and (min-width: 320px) and (max-width: 467px){
+
+    .hide{
+        display: none;
+    }
+    .topnav{
+        align-items: center;
+    }
+    .shop{
+        font-size: 30px;
+    }
+    .homebg{
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)) ,url(Images/homepic.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;  
+    }
+    .productheading{
+        font-size: 8px;
+    } 
+    .producttitle{
+        font-size: 20px;
+    }
+    .productpara{
+        width: 100%;
+    }
+    .product{
+        margin-bottom: 20px;
+    }
+    .notify h2{
+        font-size: 20px;
+    }
+    .notify button{
+        padding: 4px 9px;
+        font-size: 10px;
+    }
+    .space{
+    padding-left: 0px;
+    }
+    .space2{
+        padding-right: 0px;
+    }
+    .merchant{
+        position: absolute;
+        left: 120px;
+        right: 0;
+        bottom: 0px;
+    }
+    .notify input{
+        padding: 0px;
+    }
+    .box{
+        padding: 0px;
+    }
+    .icons{
+        padding-bottom: 30px;
+    }
+    .countdownmain{
+        margin: 0px 50px 0px 0px !important;
+        
+    }
+    .newsdown{
+        padding-bottom: 10px;
+    }
+    .down{
+        margin-bottom: 15px;
+    }
+  
+    
+}
+
+
+/* tablet */
+@media only screen and (min-width: 468px) and (max-width: 768px){
+
+    .hide{
+        display: none;
+    }
+    .topnav{
+        align-items: center;
+    }
+
+    .shop{
+        font-size: 30px;
+    }
+    .homebg{
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)) ,url(Images/homepic.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;  
+    }
+    .productheading{
+        font-size: 8px;
+    } 
+    .producttitle{
+        font-size: 20px;
+    }
+    .productpara{
+        width: 100%;
+    }
+    .product{
+        margin-bottom: 20px;
+    }
+    .notify h2{
+        font-size: 20px;
+    }
+    .notify button{
+        padding: 4px 9px;
+        font-size: 10px;
+    }
+    .space{
+    padding-left: 0px;
+    }
+    .space2{
+        padding-right: 0px;
+    }
+    .merchant{
+        position: absolute;
+        left: 120px;
+        right: 0;
+        bottom: 0px;
+    }
+    .notify input{
+        padding: 0px;
+    }
+    .box{
+        padding: 0px;
+    }
+    .icons{
+        padding-bottom: 30px;
+    }
+    .countdownmain{
+        margin: 0px 50px 0px 0px !important;
+        
+    }
+    .newsdown{
+        padding-bottom: 10px;
+    }
+    .down{
+        margin-bottom: 15px;
+    }
+
+}
+
+
+/* __________________________________________________________________________________________________ */
+
+                        /* THE WEBSITE END */
+/* __________________________________________________________________________________________________ */
+
+
+
